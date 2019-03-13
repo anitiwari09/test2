@@ -8,7 +8,7 @@ import com.qaagility.javaee.Calculator;
 public class AppTest {
 
 Calculator myCalc = new Calculator();
-
+calmul cal = new calmul();
       public void testSlow() {
         System.out.println("slow");
       }
@@ -24,6 +24,8 @@ Calculator myCalc = new Calculator();
 	@Test	
       public void testCalc() {
         assertEquals("Result", 9, myCalc.add(3,6));
+	assertEquals("Result", 9, myCalc.add());
+	assertEquals("Result", 18, cal.MUL(3,6));
       }
 
     }
