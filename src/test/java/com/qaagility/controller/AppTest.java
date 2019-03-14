@@ -25,7 +25,7 @@ Calcmul cal = new Calcmul();
       public void testCalc() {
         assertEquals("Result", 9, myCalc.add(3,6));
 	assertEquals("Result", 9, myCalc.add());
-	assertEquals("Result", 18, cal.mul(3,6));
+	assertEquals("Result", 18, cal.mul());
       }
 
     }
